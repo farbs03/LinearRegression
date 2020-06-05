@@ -54,5 +54,5 @@ def makePrediction(prediction):
     return x2 * prediction + x1
 
 
-prediction = int(input("Enter a new data point: "))
-print(f"Prediction: {prediction}: {makePrediction(prediction)}")
+prediction = int(input("Enter a new data point to get a predicted value: "))
+print(f"Predicted Value: {makePrediction(prediction)}")
